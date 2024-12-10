@@ -7,7 +7,7 @@ import { renderToString } from 'vue/server-renderer'
 
 // App
 import App from './App.vue'
-import router from './router/index.js'
+import router from './router/index'
 
 export async function render(url, manifest = null) {
   const app = createSSRApp(App)
